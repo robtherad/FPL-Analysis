@@ -11,6 +11,18 @@ A python program to analyze data for FPL. Uses data from the FPL API as well as 
 4. If there were no problems there should be 4 CSV files in the same directory as the program. Import each of these files as a new sheet in a google doc spreadsheet.
 5. Make sure to freeze the first row before sorting the data (View > Freeze > 1 Rows)
 
+## Calculated Stats Info
+**xG90**: Expected goals divided by minutes played, multiplied by 90
+**xA90**: Expected assists divided by minutes played, multiplied by 90
+**Key Pass/90**: Key Passes divided by minutes played, multiplied by 90
+**xGDiff**: Goals minus expected goals
+**xADiff**: Assists minus expected assists
+**xG/Shot**: Expected goals divided by shots
+
+#### FPL Value Stats
+**PPM**: Points per million - Total FPL Points divided by FPL Price
+**xPP90**: Expected points per 90 - xG90 multiplied by FPL points per goal for position, plus, xA90 multiplied by FPL points for an assist 
+**xPPM**: Expected points per million -  xPP90 divided by FPL Price
 
 ## TODO
 * Fixture analysis
