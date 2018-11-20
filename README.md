@@ -3,13 +3,15 @@ A python program to analyze data for FPL. Uses data from the FPL API as well as 
 
 
 ## Usage
-1. Get FPL Data from: https://fantasy.premierleague.com/drf/bootstrap-static
-1b. Save data as DataFPL.JSON
-2. Get Understat data from 'var playersData' on: https://understat.com/league/EPL
-2b. Save data as DataUnderstat.JSON
-3. Ensure the gameweek variable is up to date in the first few lines of 'fpl.py'.
-4. If there were no problems there should be 4 CSV files in the same directory as the program. Import each of these files as a new sheet in a google doc spreadsheet.
-5. Make sure to freeze the first row before sorting the data (View > Freeze > 1 Rows)
+**1.** Get FPL Data from: https://fantasy.premierleague.com/drf/bootstrap-static  and save data as DataFPL.JSON
+
+**2.** Get Understat data from 'var playersData' on: https://understat.com/league/EPL  and save data as DataUnderstat.JSON
+
+**3.** Ensure the gameweek variable is up to date in the first few lines of 'fpl.py'.
+
+**4.** If there were no problems there should be 4 CSV files in the same directory as the program. Import each of these files as a new sheet in a google doc spreadsheet.
+
+**5.** Make sure to freeze the first row before sorting the data (View > Freeze > 1 Rows)
 
 
 ## Calculated Stats Info
@@ -25,7 +27,7 @@ A python program to analyze data for FPL. Uses data from the FPL API as well as 
 
 **xG/Shot**: Expected goals divided by shots
 
-#### FPL Value Stats
+### FPL Value Stats
 **PPM**: Points per million - Total FPL Points divided by FPL Price
 
 **xPP90**: Expected points per 90 - xG90 multiplied by FPL points per goal for position, plus, xA90 multiplied by FPL points for an assist 
