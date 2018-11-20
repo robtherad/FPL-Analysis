@@ -271,7 +271,7 @@ for teamIter,team in enumerate(sortedFPLList):
                     _xGShot = _xGoals / _shots
                 else:
                     _xGShot = 0
-                _keyPass90 = (_keyPasses / _minutes) * 90
+                
                 # FPL Calculations
                 if _position <= 2:
                     _goalPoints = 6
